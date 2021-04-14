@@ -10,7 +10,7 @@ const express = require('./config/express.js')
 
 var http = require('http'), 
 	fs = require('fs'), 
- 	url = require('url'),
+ 	url = require('url');
 
 // Global variables 
 var listingData;
