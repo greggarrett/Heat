@@ -25,5 +25,5 @@ jobs:
           command: npm run-script dev
           background: true
       # wait for server then run server.test.js
-      - run: sleep 5
+      - run: sleep 30
       - run: npm run test
