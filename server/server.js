@@ -40,7 +40,8 @@ var requestHandler = function(request, response) {
 //var server = http.createServer(requestHandler);=====>from original server.js file
 
 const port = process.env.PORT || 5000;
-const app = express.init(requestHandler);
+const server = http.createServer(requestHandler);
+//const app = express.init(requestHandler);
 //app.listen(port, () => console.log(`Server now running on port ${port}!`));
 
 
@@ -55,7 +56,7 @@ fs.readFile('listings.json', 'utf8', function(err, data) {
   	listingData = data;
 
 	// Start the server
-  	app.listen(port, function() {
+  	server.listen(port, function() {
         console.log(`Server now running on port ${port}!`);
 		//console.log('Server lisrening on: http://127.0.0.1:' + port);   
 	});
