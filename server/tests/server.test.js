@@ -18,7 +18,7 @@ describe('UF Directory Server Unit Tests', function() {
     the response to 'http://localhost:5000/listings' to the data we expect to recieve. 
    */
   before(function(done) {
-    fs.readFile('listings.json', 'utf8', function(err, data) {
+    fs.readFile('../../listings.json', 'utf8', function(err, data) {
       listings = JSON.parse(data);
 
       /*
