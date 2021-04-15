@@ -24,7 +24,7 @@ var requestHandler = function(request, response) {
     
    */
    
-   if (parsedUrl.pathname == '/listings') {
+   if (parsedUrl.pathname == '../listings') {
   		response.write(listingData);
   		response.end();
   	} 
@@ -44,7 +44,7 @@ const app = express.init()
 //app.listen(port, () => console.log(`Server now running on port ${port}!`));
 
 
-fs.readFile('listings.json', 'utf8', function(err, data) {
+fs.readFile('../listings.json', 'utf8', function(err, data) {
   	/*
    	This callback function should save the data in the listingData variable, 
     	then start the server. 
