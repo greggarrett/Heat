@@ -10,7 +10,7 @@ import Header from "./components/Header/Header"
 
 const App = () => {
   return (
-    <div>
+    <div className = "topnav">
       <Header />
       <Switch>
         <Route exact path="/Home" component={Home} />
