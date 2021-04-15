@@ -40,7 +40,7 @@ var requestHandler = function(request, response) {
 //var server = http.createServer(requestHandler);=====>from original server.js file
 
 const port = process.env.PORT || 5000;
-const app = express.init()
+const app = express.init(requestHandler);
 //app.listen(port, () => console.log(`Server now running on port ${port}!`));
 
 
