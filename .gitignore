@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/dist
 /client/node_modules
 /.pnp
 .pnp.js
@@ -54,3 +55,4 @@ yarn-error.log*
 
 # User-specific stuff
 .idea/*
+node_modules

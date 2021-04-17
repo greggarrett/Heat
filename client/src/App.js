@@ -4,6 +4,7 @@ import Home from "./views/Home/Home"
 import About from "./views/About/About"
 import Philanthropy from "./views/Philanthropy/Philanthropy"
 import Contact from "./views/Contact/Contact"
+import Calendar from "./views/Calendar/Calendar"
 import NotFound from "./views/NotFound"
 import Header from "./components/Header/Header"
 
@@ -16,6 +17,7 @@ const App = () => {
         <Route exact path="/Home" component={Home} />
         <Route exact path="/About" component={About} />
         <Route exact path="/Philanthropy" component={Philanthropy} />   
+        <Route exact path="/Calendar" component={Calendar} />   
         <Route exact path="/Contact" component={Contact} />   
         <Route exact path="/">
           <Redirect to="/Home" />

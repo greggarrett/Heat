@@ -15,10 +15,10 @@ export class Header extends Component{
             <Navbar.Collapse id = "basic-navbar-nav">
             <Nav>
             <NavItem>
-                <NavLink className="d-inline p-2 bg-dark text-white" to='/about'>About</NavLink>
+                <NavLink className="d-inline p-2 bg-dark text-white" to='/About'>About</NavLink>
             </NavItem>
             <NavItem>
-            <NavLink className="d-inline p-2 bg-dark text-white" to='/philanthropy'>Philanthropy</NavLink>
+            <NavLink className="d-inline p-2 bg-dark text-white" to='/Philanthropy'>Philanthropy</NavLink>
             </NavItem>
             <Nav.Item>
                 <Nav.Link className="d-inline p-2 bg-dark text-white" 
@@ -26,14 +26,18 @@ export class Header extends Component{
                         Photo Gallery<i className="fas fa-external-link-alt external-link" data-fa-transform="up-6 right-4"></i>
                 </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
+            {/* <Nav.Item>
                 <Nav.Link className="d-inline p-2 bg-dark text-white" 
                         href="https://www.facebook.com/ufaopi/photos/?ref=page_internal">
                         Calendar<i className="fas fa-external-link-alt external-link" data-fa-transform="up-6 right-4"></i>
                 </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
             <NavItem>
-                <NavLink className="d-inline p-2 bg-dark text-white" to='/contact'>Contact</NavLink>
+                <NavLink className="d-inline p-2 bg-dark text-white" to='/Calendar'>Calendar</NavLink>
+            </NavItem>
+
+            <NavItem>
+                <NavLink className="d-inline p-2 bg-dark text-white" to='/Contact'>Contact</NavLink>
             </NavItem>
             </Nav>
             </Navbar.Collapse>
