@@ -19,10 +19,12 @@ jobs:
             - run: npm install mocha
             - run: alias mocha='./node_modules/.bin/_mocha'
             - run: npm install
+            - run: npm run-script install-all
+            - run: cd client && npm install
       - run:
           #start server
-          command: npm start
+          command: npm run-script dev
           background: true
       # wait for server then run server.test.js
-      - run: sleep 5
+      - run: sleep 30
       - run: npm run test

@@ -4,8 +4,14 @@
   "description": "Testing Practice",
   "main": "server.js",
   "scripts": {
-    "test": "mocha server.test.js",
-    "start": "node server.js"
+    "test": "mocha server/tests",
+    "install-all": "concurrently \"npm install\" \"cd client && npm install\"",
+    "client": "cd client && npm start",
+    "server": "nodemon server/server.js",
+    "dev": "concurrently \"nodemon server/server.js\" \"cd client && npm run-script start\"",
+    "build": "cd client && npm build",
+    "start": "node server/server.js",
+    "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
   },
   "author": "Medhir Bhargava & Alex Webber",
   "license": "MIT",
@@ -13,6 +19,15 @@
     "should": "^7.1.1"
   },
   "dependencies": {
-    "request": "^2.67.0"
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.0",
+    "express": "^4.17.1",
+    "mocha": "^6.2.1",
+    "mongoose": "^5.7.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.10",
+    "react-scripts": "^4.0.3",
+    "request": "^2.67.0",
+    "should": "^13.2.3"
   }
 }
