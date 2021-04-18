@@ -3,27 +3,26 @@
 
 import React from 'react';
 // import logo from '../../assets/club_logo.png';
-import '../Home/Home.css';
+import './Philanthropy.css';
 
-function Home() {
+function Philanthropy() {
     return (
         <div className="App">
-            <header className="App-header">
+
+            {/* <div className="App-header"> */}
                 {/* <img src={logo} className="App-logo" alt="logo" /> */}
-                <p>
-                    {/* Edit <code>src/App.js</code> and save to reload. */}
-                    Philanthropy information
-                </p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                </a>
-            </header>
+                <div className = "PhilText">
+                  
+                    <p>
+                    Philanthropy information.
+                    </p>
+                
+                {/* </div> */}
+              
+            </div>
         </div>
+        
     );
 }
 
-export default Home;
+export default Philanthropy;
