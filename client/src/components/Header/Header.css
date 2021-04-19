@@ -8,6 +8,12 @@
     grid-auto-rows: min-content;
     grid-gap: 20px;
     margin: 20px auto 0;
+   
+}
+
+.d-inline{
+    font-family: Cambria;
+    font-size: larger;
 }
 
 .cardList {
@@ -16,11 +22,12 @@
     justify-content: center;
     flex-wrap: nowrap;
     width: 100%;
+   
 }
 
 #homeBody {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     flex-direction: column;
     width: 97%;
     margin: 20px auto 0;
