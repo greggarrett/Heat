@@ -1,12 +1,12 @@
-.App {
+.App1 {
     text-align:center;
 }
 
-.App-logo {
+.App-logo1 {
     height: 60vmin;
 }
 
-.App-header {
+.App-header1 {
     background-color: #df728d;
     min-height: 120vh;
     display: flex;
@@ -24,7 +24,7 @@
 }
 
 .missstatement {
-    color:#c01640 ;
+    color:#c71541 ;
     align-items: center;
     margin: auto;
     text-align: center;

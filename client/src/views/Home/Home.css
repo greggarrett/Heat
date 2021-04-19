@@ -1,13 +1,26 @@
+  
 .App {
-    text-align:center;
+    text-align: center;
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
 }
+
 
 .App-logo {
-    height: 40vmin;
-}
+    height: 100vmin;
+    text-align: center;
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+}  
 
 .App-header {
-    background-color: #df728d;
+    background-color: #aa4f66;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -19,4 +32,9 @@
 
 .App-link {
     color: #09d3ac;
+}
+
+.title{
+    color: white;
+    
 }
