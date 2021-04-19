@@ -1,6 +1,6 @@
 import request from 'superagent'
 
-const CALENDAR_ID = 'tb8ckdrm61bdsj6jfm7khob4u5@group.calendar.google.com'
+const CALENDAR_ID = '815543287558-eol57meelpjpba4u65f6b5712ltho5l5.apps.googleusercontent.com'
 const API_KEY = 'AIzaSyAOuDzSlG24RPBn3OKVAyjW3OK_EJhCUbp'
 let url = `https://www.googleapis.com/calendar/v3/calendars/${CALENDAR_ID}/events?key=${API_KEY}`
 
@@ -17,6 +17,9 @@ export function getEvents (callback) {
             title: event.summary,
           })
         })
+        for(let i = 0; i < events.size; i++){
+          console.log(events[i])
+        }
         callback(events)
       }
     })

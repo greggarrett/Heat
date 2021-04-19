@@ -50,6 +50,7 @@ class App extends React.Component {
     getEvents((events) => {
       this.setState({events})
     })
+    
   }
   render () {
     return (
