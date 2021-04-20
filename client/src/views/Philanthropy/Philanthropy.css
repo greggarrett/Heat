@@ -1,0 +1,55 @@
+.App1 {
+    text-align:center;
+}
+
+.App-logo1 {
+    height: 60vmin;
+}
+
+.column {
+    float: left;
+    width: 50.00%;
+    padding:10px;
+}
+
+.App-header1 {
+    background-color: #df728d;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Cambria;
+}
+
+.App-link {
+    color: #09d3ac;
+}
+
+.servicestatement {
+    color:#ac2849 ;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size:20px;
+    font-family: Cambria;
+}
+
+.philhead{
+    background-color: #df728d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size:8000 px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Cambria ;
+}

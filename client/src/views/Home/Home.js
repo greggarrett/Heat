@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assets/club_logo.png';
+import logo from '../../assets/aopiback2.png';
 import './Home.css';
 
 function Home() {
@@ -10,6 +10,11 @@ function Home() {
                 <p>
                     {/* Edit <code>src/App.js</code> and save to reload. */}
                 </p>
+                <div className = "title">
+                    <h1>
+                        Alpha Omicron Pi 
+                    </h1>
+                </div>
                 <a
                     className="App-link"
                     href="https://reactjs.org"

@@ -7,7 +7,7 @@ export class Header extends Component{
     render(){
         return (
             
-            <Navbar bg = "dark" expand = "lg">
+            <Navbar bg = "dark"  expand = "lg">
             <Navbar.Brand href="/Home">
                 <img src={"/small_logo.png"} style={{width:100, marginTop: -7}} className="d-inline-block align-top"/>
             </Navbar.Brand>
