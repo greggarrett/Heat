@@ -10,9 +10,9 @@
     "client": "cd client && npm start",
     "server": "nodemon server/server.js",
     "dev": "concurrently \"nodemon server/server.js\" \"cd client && npm run-script start\"",
-    "build": "cd client && npm build",
+    "build": "concurrently \"npm install\" \"cd client && npm install\" && concurrently \"nodemon server/server.js\" \"cd client && npm run-script start\"",
     "start": "node server/server.js",
-    "herolu-postbuild": "concurrently \"npm install\" \"cd client && npm install\" && concurrently \"nodemon server/server.js\" \"cd client && npm run-script start\"",
+    "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build",
     "predeploy": "npm run-script build",
     "deploy": "gh-pages -d build"
   },
