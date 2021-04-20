@@ -4,12 +4,12 @@
 import React from 'react';
 // import logo from '../../assets/club_logo.png';
 import './About.css';
-import logo from '../../assets/aboutphoto.jpg';
+import logo1 from '../../assets/aboutphoto.jpg';
 
 function About() {
     return (
-        <div className="App">
-            <div className="App-header">
+        <div className="App1">
+            <div className="App-header1">
                 {/* <img src={logo} className="App-logo" alt="logo" /> */}
                 <div className = "abouthead">
                     <br/>
@@ -34,13 +34,17 @@ function About() {
                     
                 </p>
                 <p>
-                <img src={logo} className="App-logo" alt="logo" />
+                <img src={logo1} className="App-logo1" alt="logo1" />
                 </p>
                 <p></p>
                 <p>
 
                 </p>
                 <div className = "missstatement">
+                    <h1>
+                        MISSION STATEMENT
+                
+                    </h1>
                 <p>
                 “The object of this Fraternity shall be to encourage a spirit of Fraternity and love among its members; to stand at all times for character, dignity, scholarship, and college loyalty; to strive for and support the best interests of the colleges and universities in which chapters are installed, and in no way to disregard, injure, or sacrifice those interests for the sake of prestige or advancement of the Fraternity or any of its chapters.”
                 </p>
