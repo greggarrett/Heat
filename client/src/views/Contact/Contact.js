@@ -1,6 +1,6 @@
 //this file was built from the contents of home.js
 //the logo was removed and placeholder text added 
-
+ 
 import React from 'react';
 // import logo from '../../assets/club_logo.png';
 import './Contact.css';
@@ -18,24 +18,24 @@ import logo10 from '../../assets/briguildin.jpg';
 import logo11 from '../../assets/ashleycarillo.jpg';
 import logo12 from '../../assets/taylorjackson.jpg';
 import logo13 from '../../assets/abbiewolfe.jpg';
-// import logo14 from '../../assets/mandymusleh.png';
+//import logo14 from '../../assets/mandymusleh.png';
 import logo15 from '../../assets/camterry.jpg';
 import logo16 from '../../assets/andreacastro.jpg';
 import logo17 from '../../assets/zoezimmerman.jpg';
-
+ 
 function Contact() {
     return (
-        <div className="App">
-            <header className="App-header">
-                {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        <div className="App1">
+            <header className="App-header1">
+                {/* <img src={logo} className="App-logo1" alt="logo" /> */}
                 <p>
                     {/* Edit <code>src/App.js</code> and save to reload. */}
-
+ 
                     <h1> Contact Us! </h1>
-        {/* hi */}
-                    <div class="column">
+                    
+                    <div class="column1">
                         <div class="row-md-3 row-sm-6 row-xs-12">
-                            <img src={logo} className="App-logo" alt="logo"></img>
+                            <img src={logo} className="App-logo1" alt="logo"></img>
                             <p> <p> ________________________________________ </p> </p>
                             <h4>Chapter President</h4>
                             <p>Molly Kennedy</p>
@@ -43,10 +43,10 @@ function Contact() {
                             <p> <span class="contactinfo">ufalphaomicronpipresident@gmail.com</span> </p>
                         </div>
                     </div>
-
-                    <div class="column">
+ 
+                    <div class="column1">
                         <div class="row-md-3 row-sm-6 row-xs-12">
-                            <img src={logo1} className="App-logo" alt="logo"></img>
+                            <img src={logo1} className="App-logo1" alt="logo"></img>
                             <p> <p> ________________________________________ </p> </p>
                             <h4>Vice President</h4>
                             <p>Olivia Green</p>
@@ -54,10 +54,10 @@ function Contact() {
                             <p> <span class="contactinfo">aoiiufvpa@gmail.com</span> </p>
                         </div>
                     </div>
-
-                    <div class="column">
+ 
+                    <div class="column1">
                         <div class="row-md-3 row-sm-6 row-xs-12">
-                            <img src={logo2} className="App-logo" alt="logo"></img>
+                            <img src={logo2} className="App-logo1" alt="logo"></img>
                             <p> <p> ________________________________________ </p> </p>
                             <h4>VP of Standards</h4>
                             <p>Liat Sinclair</p>
@@ -65,10 +65,10 @@ function Contact() {
                             <p> <span class="contactinfo">ufaoiistandards@gmail.com</span> </p>
                         </div>
                     </div>
-
-                    <div class="column">
+ 
+                    <div class="column1">
                         <div class="row-md-3 row-sm-6 row-xs-12">
-                            <img src={logo3} className="App-logo" alt="logo"></img>
+                            <img src={logo3} className="App-logo1" alt="logo"></img>
                             <p> <p> ________________________________________ </p> </p>
                             <h4>Sisterhood Chair</h4>
                             <p>Kerlin Lemus</p>
@@ -77,10 +77,10 @@ function Contact() {
                         </div>
                     </div>
                     <p> <span class="spacing">.</span> </p>
-
-                    <div class="column">
+ 
+                    <div class="column1">
                         <div class="row-md-3 row-sm-6 row-xs-12">
-                            <img src={logo4} className="App-logo" alt="logo"></img>
+                            <img src={logo4} className="App-logo1" alt="logo"></img>
                             <p> <p> ________________________________________ </p> </p>
                             <h4>VP of Academics</h4>
                             <p>Alex Perez</p>
@@ -88,10 +88,10 @@ function Contact() {
                             <p> <span class="contactinfo">ufaoiiacademics@gmail.com</span> </p>
                         </div>
                     </div>
-
-                    <div class="column">
+ 
+                    <div class="column1">
                         <div class="row-md-3 row-sm-6 row-xs-12">
-                            <img src={logo5} className="App-logo" alt="logo"></img>
+                            <img src={logo5} className="App-logo1" alt="logo"></img>
                             <p> <p> ________________________________________ </p> </p>
                             <h4>VP of Finance </h4>
                             <p>Sydney Ure</p>
@@ -99,10 +99,10 @@ function Contact() {
                             <p> <span class="contactinfo">ufaoiitreasurer@gmail.com</span> </p>
                         </div>
                     </div>
-
-                    <div class="column">
+ 
+                    <div class="column1">
                         <div class="row-md-3 row-sm-6 row-xs-12">
-                            <img src={logo6} className="App-logo" alt="logo"></img>
+                            <img src={logo6} className="App-logo1" alt="logo"></img>
                             <p> <p> ________________________________________ </p> </p>
                             <h4>Chapter Secretary </h4>
                             <p>Regan Hardin</p>
@@ -110,10 +110,10 @@ function Contact() {
                             <p> <span class="contactinfo">ufaoiisecretary@gmail.com</span> </p>
                         </div>
                     </div>
-
-                    <div class="column">
+ 
+                    <div class="column1">
                         <div class="row-md-3 row-sm-6 row-xs-12">
-                            <img src={logo7} className="App-logo" alt="logo"></img>
+                            <img src={logo7} className="App-logo1" alt="logo"></img>
                             <p> <p> ________________________________________ </p> </p>
                             <h4>New Member Educator</h4>
                             <p>Sophia Varjabedian</p>
@@ -122,10 +122,10 @@ function Contact() {
                         </div>
                     </div>
                     <p> <span class="spacing">.</span> </p>
-
-                    <div class="column">
+ 
+                    <div class="column1">
                         <div class="row-md-3 row-sm-6 row-xs-12">
-                            <img src={logo8} className="App-logo" alt="logo"></img>
+                            <img src={logo8} className="App-logo1" alt="logo"></img>
                             <p> <p> ________________________________________ </p> </p>
                             <h4>Panhellenic Delegate </h4>
                             <p>Molly Metcalf</p>
@@ -133,10 +133,10 @@ function Contact() {
                             <p> <span class="contactinfo">ufaoiipanhellenicdelegate@gmail.com</span> </p>
                         </div>
                     </div>
-
-                    <div class="column">
+ 
+                    <div class="column1">
                         <div class="row-md-3 row-sm-6 row-xs-12">
-                            <img src={logo9} className="App-logo" alt="logo"></img>
+                            <img src={logo9} className="App-logo1" alt="logo"></img>
                             <p> <p> ________________________________________ </p> </p>
                             <h4>Keeper of the Ritual</h4>
                             <p>Lilly Magley</p>
@@ -144,10 +144,10 @@ function Contact() {
                             <p> <span class="contactinfo">ufaoiiritual@gmail.com</span> </p>
                         </div>
                     </div>
-
-                    <div class="column">
+ 
+                    <div class="column1">
                         <div class="row-md-3 row-sm-6 row-xs-12">
-                            <img src={logo10} className="App-logo" alt="logo"></img>
+                            <img src={logo10} className="App-logo1" alt="logo"></img>
                             <p> <p> ________________________________________ </p> </p>
                             <h4>VP of Communications</h4>
                             <p>Bri Guildin</p>
@@ -155,10 +155,10 @@ function Contact() {
                             <p> <span class="contactinfo">ufaoiicommunications@gmail.com</span> </p>
                         </div>
                     </div>
-
-                    <div class="column">
+ 
+                    <div class="column1">
                         <div class="row-md-3 row-sm-6 row-xs-12">
-                            <img src={logo11} className="App-logo" alt="logo"></img>
+                            <img src={logo11} className="App-logo1" alt="logo"></img>
                             <p> <p> ________________________________________ </p> </p>
                             <h4> External Philanthropy</h4>
                             <p>Ashley Carillo</p>
@@ -167,10 +167,10 @@ function Contact() {
                         </div>
                     </div>
                     <p> <span class="spacing">.</span> </p>
-
-                    <div class="column">
+ 
+                    <div class="column1">
                         <div class="row-md-3 row-sm-6 row-xs-12">
-                            <img src={logo12} className="App-logo" alt="logo"></img>
+                            <img src={logo12} className="App-logo1" alt="logo"></img>
                             <p> <p> ________________________________________ </p> </p>
                             <h4>Social Chairman</h4>
                             <p>Taylor Jackson</p>
@@ -178,10 +178,10 @@ function Contact() {
                             <p> <span class="contactinfo">ufaoiisocialchair@gmail.com</span> </p>
                         </div>
                     </div>
-
-                    <div class="column">
+ 
+                    <div class="column1">
                         <div class="row-md-3 row-sm-6 row-xs-12">
-                            <img src={logo13} className="App-logo" alt="logo"></img>
+                            <img src={logo13} className="App-logo1" alt="logo"></img>
                             <p> <p> ________________________________________ </p> </p>
                             <h4>Alumnae Relations</h4>
                             <p>Abbie Wolfe</p>
@@ -189,22 +189,10 @@ function Contact() {
                             <p> <span class="contactinfo">aopialum@gmail.com</span> </p>
                         </div>
                     </div>
-
-                    {/* <div class ="column">
-                    <div class= "row-md-3 row-sm-6 row-xs-12">
-                    <img src={logo14} className="App-logo" alt="logo"></img>
-                         <p> <p> ________________________________________ </p> </p>
-                        <h4>Vice President of Membership Recruitment</h4>
-                            <p>Mandy Musleh</p>
-                                <p>
-                                224-688-5598
-                                </p>
-                    </div>
-                </div> */}
-
-                    <div class="column">
+ 
+                    <div class="column1">
                         <div class="row-md-3 row-sm-6 row-xs-12">
-                            <img src={logo15} className="App-logo" alt="logo"></img>
+                            <img src={logo15} className="App-logo1" alt="logo"></img>
                             <p> <p> ________________________________________ </p> </p>
                             <h4>House Manager</h4>
                             <p>Cam Terry</p>
@@ -212,10 +200,10 @@ function Contact() {
                             <p> <span class="contactinfo">ufaoiihousemanager@gmail.com</span> </p>
                         </div>
                     </div>
-
-                    <div class="column">
+ 
+                    <div class="column1">
                         <div class="row-md-3 row-sm-6 row-xs-12">
-                            <img src={logo16} className="App-logo" alt="logo"></img>
+                            <img src={logo16} className="App-logo1" alt="logo"></img>
                             <p> <p> ________________________________________ </p> </p>
                             <h4>Internal Philanthropy</h4>
                             <p>Andrea Castro</p>
@@ -223,12 +211,12 @@ function Contact() {
                             <p> <span class="contactinfo">ufstrikeoutarthritis@gmail.com</span> </p>
                         </div>
                     </div>
-
+ 
                     <p> <span class="spacing">.</span> </p>
-
-                    <div class="column">
+ 
+                    <div class="column1">
                         <div class="row-md-3 row-sm-6 row-xs-12">
-                            <img src={logo17} className="App-logo" alt="logo"></img>
+                            <img src={logo17} className="App-logo1" alt="logo"></img>
                             <p> <p> ________________________________________ </p> </p>
                             <h4>VP of Education</h4>
                             <p>Zoe Zimmerman</p>
@@ -236,8 +224,8 @@ function Contact() {
                             <p> <span class="contactinfo">ufaoiieducation@gmail.com</span> </p>
                         </div>
                     </div>
-
-
+ 
+ 
                 </p>
                 <a
                     className="App-link"
@@ -250,5 +238,6 @@ function Contact() {
         </div>
     );
 }
-
+ 
 export default Contact;
+
