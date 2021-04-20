@@ -32,7 +32,7 @@ function Contact() {
                     {/* Edit <code>src/App.js</code> and save to reload. */}
 
                     <h1> Contact Us! </h1>
-        
+        {/* hi */}
                     <div class="column">
                         <div class="row-md-3 row-sm-6 row-xs-12">
                             <img src={logo} className="App-logo" alt="logo"></img>
