@@ -1,12 +1,12 @@
-.App {
+.App1 {
     text-align:center;
 }
 
-.App-logo {
+.App-logo1 {
     height: 60vmin;
 }
 
-.App-header {
+.App-header1 {
     background-color: #df728d;
     background-image: linear-gradient(to bottom right, #df728d, rgb(248, 219, 234));
     min-height: 120vh;
@@ -34,7 +34,7 @@
     color: #09d3ac;
 }
 
-.column {
+.column1 {
     float: left;
     width: 25%;
   }
