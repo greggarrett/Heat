@@ -20,12 +20,9 @@ export class Header extends Component{
             <NavItem>
             <NavLink className="d-inline p-2 bg-dark text-white" to='/Philanthropy'>Philanthropy</NavLink>
             </NavItem>
-            <Nav.Item>
-                <Nav.Link className="d-inline p-2 bg-dark text-white" 
-                        href="https://www.facebook.com/ufaopi/photos/?ref=page_internal">
-                        Photo Gallery<i className="fas fa-external-link-alt external-link" data-fa-transform="up-6 right-4"></i>
-                </Nav.Link>
-            </Nav.Item>
+            <NavItem>
+                <NavLink className="d-inline p-2 bg-dark text-white" to='/PhotoGallery'>Photo Gallery</NavLink>
+            </NavItem>
             {/* <Nav.Item>
                 <Nav.Link className="d-inline p-2 bg-dark text-white" 
                         href="https://www.facebook.com/ufaopi/photos/?ref=page_internal">
