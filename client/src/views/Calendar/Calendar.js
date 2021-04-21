@@ -31,7 +31,6 @@ import { Calendar, momentLocalizer } from 'react-big-calendar'
 import moment from 'moment'
 import events from './events'
 import 'react-big-calendar/lib/css/react-big-calendar.css';
-// this weird syntax is just a shorthand way of specifying loaders
 
 class App extends React.Component {
   // constructor () {
