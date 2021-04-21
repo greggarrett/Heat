@@ -8,3 +8,6 @@ clone repository
 npm run-script install-all
 
 npm run-script dev
+
+citaion:
+react big calendar implementation adapted from https://github.com/jyhwng/dashboard calendar 
