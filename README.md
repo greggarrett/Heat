@@ -9,5 +9,6 @@ npm run-script install-all
 
 npm run-script dev
 
-citaion:
+citaions:
 react big calendar implementation adapted from https://github.com/jyhwng/dashboard calendar 
+photo gallery theme from http://neptunian.github.io/react-photo-gallery/
