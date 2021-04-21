@@ -6,18 +6,6 @@ export default[
     end: new Date(2021, 3, 1)
   },
   {
-    title: 'DTS STARTS',
-    start: new Date(2021, 2, 13, 0, 0, 0),
-    end: new Date(2021, 2, 20, 0, 0, 0)
-  },
-
-  {
-    title: 'DTS ENDS',
-    start: new Date(2021, 10, 6, 0, 0, 0),
-    end: new Date(2021, 10, 13, 0, 0, 0)
-  },
-
-  {
     title: 'Some Event',
     start: new Date(2021, 3, 9, 0, 0, 0),
     end: new Date(2021, 3, 9, 0, 0, 0)
@@ -52,8 +40,8 @@ export default[
   },
   {
     title: 'Birthday Party',
-    start: new Date(2021, 3, 13, 7, 0, 0),
-    end: new Date(2021, 3, 13, 10, 30, 0)
+    start: new Date(2021, 3, 13, 19, 0, 0),
+    end: new Date(2021, 3, 13, 22, 30, 0)
   },
   {
     title: 'Late Night Event',
