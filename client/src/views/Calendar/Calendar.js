@@ -25,43 +25,45 @@
 
 // export default Home;
 
-import React from 'react'
-import { render } from 'react-dom'
+import React, { Component } from 'react';
+//import { getEvents } from './gcal'
+import { Calendar, momentLocalizer } from 'react-big-calendar'
 import moment from 'moment'
-import { getEvents } from './gcal'
-import { Calendar , momentLocalizer } from 'react-big-calendar'
+import events from './events'
 import 'react-big-calendar/lib/css/react-big-calendar.css';
-//require('style!css!react-big-calendar/lib/css/react-big-calendar.css')
-// Calendar.momentLocalizer(moment)
-// a localizer for BigCalendar
-const localizer = momentLocalizer(moment)
-
-
 // this weird syntax is just a shorthand way of specifying loaders
 
 class App extends React.Component {
-  constructor () {
-    super()
-    this.state = {
-      events: []
-    }
-  }
-  componentDidMount () {
-    getEvents((events) => {
-      this.setState({events})
-    })
+  // constructor () {
+  //   super()
+  //   this.state = {
+  //     events: []
+  //   }
     
-  }
+  // }
+  // componentDidMount () {
+  //   getEvents((events) => {
+  //     this.setState({
+  //       events,
+  //     })
+  //   })
+  // }
   render () {
+    const views = ['month', 'week', 'day'];
+    const messages = {
+      previous: 'back',
+      next: 'next'
+    };
+    const localizer = momentLocalizer(moment)
     return (
-      // React Components in JSX look like HTML tags
       <Calendar
-        localizer = { localizer }
-        style={{height: '420px'}}
-        events={this.state.events}
+        events={events}
+        localizer = {localizer}
+        style={{height: '620px'}}
+        views={views}
+        messages={messages}
       />
     )
   }
 }
 export default App
-render(<App />, document.getElementById('root'))
