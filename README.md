@@ -12,3 +12,5 @@ npm run-script dev
 citaions:
 react big calendar implementation adapted from https://github.com/jyhwng/dashboard calendar 
 photo gallery theme from http://neptunian.github.io/react-photo-gallery/
+
+For more information, check our submission document: https://docs.google.com/document/d/1dgBGPOyHUo5b7k6bEr8ieb-GaHj2TNlAjKnOJczOdIc/edit?usp=sharing
