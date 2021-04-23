@@ -9,6 +9,8 @@ npm run-script install-all
 
 npm run-script dev
 
+Hosted at http://aop-website.herokuapp.com/. NOTE: If website doesn't load immediately, try reconnecting and/or waiting a few seconds. There's a delay currently that has to do with Heroku free plan and the amount of deployments you can have. The client plans on hosting on paid plan so shouldn't be an issue in the future.
+
 citaions:
 react big calendar implementation adapted from https://github.com/jyhwng/dashboard calendar 
 photo gallery theme from http://neptunian.github.io/react-photo-gallery/
